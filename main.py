@@ -62,15 +62,19 @@ def start_game():
             or snake.head.ycor() < -280
         ):
             game_on = False
-            scoreboard.game_over()
 
         for segment in snake.segments:
             if segment == snake.head:
                 pass
             elif snake.head.distance(segment) < 15:
                 game_on = False
-                scoreboard.game_over()
+        
+        if not game_on:
+            scoreboard.game_over()
+            screen.update()
+            break
 
+    time.sleep(3)
     restart_game()
 
 

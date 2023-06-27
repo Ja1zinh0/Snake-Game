@@ -26,6 +26,8 @@ class Scoreboard(Turtle):
     def game_over(self):
         self.goto(0, 0)
         self.write("Game Over", align="CENTER", font=("Courier", 26, "normal"))
+        self.goto(0, -30)
+        self.write("Restarting in 3 seconds...", align="CENTER", font=("Courier", 20, "normal"))
     
     def reset_scoreboard(self):
         self.score = 0
