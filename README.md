@@ -2,11 +2,11 @@
 
 This is my first project made using Python! It's a Snake Game created with the goal of studying and practicing the language, as well as object-oriented programming (OOP) concepts. I used the Turtle library for the game's graphical design.
 
-## Enhanced Version
+## New Version
 
-**Update:** There is a newer and enhanced version of this game available at the following link: [Enhanced Version](https://github.com/Ja1zinh0/Snake-GameV2).
+**Update:** There is a newer and better version of this game available at the following link: [newer Version](https://github.com/Ja1zinh0/Snake-GameV2).
 
-In the enhanced version, you'll find improvements in the code, design, additional features, and possibly bug fixes. Feel free to explore and try out the updated version!
+In the newer version, you'll find improvements in the code, design, additional features, and possibly bug fixes. Feel free to explore and try out the updated version!
 
 ## Demo
 
